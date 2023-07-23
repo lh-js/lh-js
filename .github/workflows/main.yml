@@ -27,7 +27,8 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          ACCESS_TOKEN: ${{ secrets.TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
 
       # push the content of <build_dir> to a branch
       # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
@@ -36,4 +37,5 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
-          ACCESS_TOKEN: ${{ secrets.TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
