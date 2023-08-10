@@ -6,6 +6,7 @@
 - 📧 2731164534@qq.com.<br/>
 <div style="display:flex;flex-direction: column;">
 <img align="left" width="45%" src = "https://github-readme-stats.vercel.app/api/top-langs/?username=lh-js">
+<br/>
 <img align="left" src="https://github-readme-stats.vercel.app/api?username=lh-js&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true" />
 </div>
 <picture>
