@@ -1,5 +1,5 @@
 <div style="display:flex;align-items:flex-end;justify-content: space-between;">
-<div>
+<div style="display:flex;flex-direction: column;justify-content: space-between;">
 Hi there 👋<br/><br/>
 - 👨‍🎓 I'm XiaoHong <br/>
 - 👩‍💻 I am a front-end developer born in the 2000s<br/>
